@@ -1,0 +1,224 @@
+html,body{
+	/*background:#f0f0f0;*/
+	min-width: 1000px;
+	min-height:100%;
+	font-family: "Helvetica Neue", Helvetica,'STHeiti','Microsoft yahei',Arial, sans-serif;
+}
+html{
+	position: relative;
+	padding-bottom:50px;
+}
+
+::-ms-clear{
+	display: none;
+}
+
+/*重写bootstrap样式开始*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+	color: #fff;
+    background-color: #095ecb;
+}
+.nav-pills > li > a {
+	border-radius: 0;
+	color:#747474;
+}
+.nav-tabs{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a:active,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a{
+	border:0 none;
+	background:transparent;
+	color:#333;
+}
+.dropdown-menu{
+	border-radius: 0;
+}
+.dropdown-toggle{
+	border-radius:0;
+	border-color:#ddd;
+}
+.dropdown-toggle:focus{
+	background: inherit;
+	border-color:#ddd;
+}
+.dropdown-toggle:hover{
+	background:#f0f0f0;
+	border-color:#ddd;
+}
+.dropdown-toggle .caret{
+	color:#ccc;
+}
+
+.btn{
+	border-radius: 2px;
+	background-color: #f9fafc;
+    border: 1px solid #adb9c1;
+    color: #666;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0a5ecc;
+    border-color: #2e6da4;
+}
+.btn-warning{
+	color: #fff;
+    background-color: #fe5f04;
+    border-color: #fe5f04;
+    padding: 10px 36px 10px 36px;
+    font-size: 16px;
+}
+.form-control{
+	border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #d9dadc;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	border-bottom:3px solid #0a5ecc;
+}
+.modal-header{
+	background-color: #f4f5f9;
+	border-bottom:none;
+	border-radius: 6px 6px 0 0;
+}
+.modal-footer{
+	background-color: #f4f5f9;
+	border-top:none;
+	border-radius:0 0 6px 6px;
+}
+.form-horizontal .control-label{
+	text-align: left;
+}
+/*重写bootstrap样式结束*/
+
+/*控制ng隐藏*/
+.modal{
+	display: block;
+}
+.ng-cloak {
+	display: none;
+}
+
+/*下拉*/
+.dropdown-sm{
+	min-width:120px;
+}
+
+/*tooltip*/
+.tooltipWrapper{
+	position: relative;
+	display: inline-block;
+}
+.tooltipWrapper .tooltip{
+	bottom:20px;
+	opacity: 1;
+	display: none;
+}
+.tooltipWrapper:hover .tooltip{
+	display: block;
+}
+
+/*必填项*/
+.control-label.required::after{
+	content:'*';
+	color:red;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+/*上传按钮 开始*/
+.btn-upload {
+  position: relative;
+  overflow: hidden;
+}
+.btn-upload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  -webkit-transform: translate(-300px, 0) scale(4);
+  -ms-transform: translate(-300px, 0) scale(4);
+  -o-transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+  height:60px;
+}
+* html .btn-upload {
+  line-height: 24px;
+  margin: 1px -3px 0 0;
+}
+* + html .btn-upload {
+  padding: 2px 15px;
+  margin: 1px 0 0 0;
+}
+/*上传按钮 结束*/
+.loading{
+	position: fixed;
+	top:0;
+	width:500px;
+	left:50%;
+	margin-left:-250px;
+}
+.loading .loadingMsg{
+	width:500px;
+	margin:0 auto;
+	height:30px;
+	line-height: 30px;
+	background:#093C6D;
+	color:white;
+	text-align: center;
+}
+
+.mainWrapper .headerWrapper{
+	height:60px;
+	border-top:5px solid #095ecb;
+	background:white;
+	margin-bottom: 30px;
+}
+.mainWrapper .headerWrapper.headGap{
+	margin-bottom: 0;
+}
+.mainWrapper .headerWrapper header{
+	width:1000px;
+	margin:0 auto;
+    height: 58px;
+}
+.mainWrapper .headerWrapper header .logo{
+	display: inline-block;
+	width:160px;
+	height:28px;
+	background:url(/images/login/jzblogo.png) no-repeat 0 0;
+	background-size:160px 28px;
+	text-indent: -110%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	top:12px;
+}
+.mainWrapper .headerWrapper header .userInfo{
+	float:right;
+    line-height: 58px;
+}
+.mainWrapper .headerWrapper header .userInfo .delimiter{
+	padding:0 10px;
+	color:#9a9a9a;
+}

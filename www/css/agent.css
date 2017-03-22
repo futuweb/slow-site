@@ -1,0 +1,113 @@
+.fillAgentForm{
+	margin: 51px 0 63px 47px;
+}
+.fillAgentForm h4{
+	margin:50px 0 32px 0;
+    font-weight: normal;
+}
+.fillAgentForm h4.jobH4{
+    margin:75px 0 42px 0;
+}
+.fillAgentForm h4.uploadH4{
+    margin:70px 0 32px 0;
+}
+.fillAgentForm h4.applyTypeH4{
+    margin:73px 0 36px 0;
+}
+.fillAgentForm h4.agentownerH4{
+    margin:84px 0 32px 0;
+}
+.main .question{
+	margin-top: 30px;
+}
+.main .question ol li{
+	line-height: 20px;
+	margin: 20px 0px;
+}
+.main .accountmsg table{
+	width: 100%;
+	border: 1px solid #dddddd;
+	border-width: 1px 1px 0px 1px;
+	text-align: left;
+}
+.main .accountmsg table thead{
+	background-color: #f8f8f8;
+	height: 40px;
+	line-height: 40px;
+}
+.main .accountmsg table tr{
+	border-bottom: 1px solid #dddddd;
+}
+.main .accountmsg table tbody tr{
+	height: 70px;
+	line-height: 70px;
+}
+.main .accountmsg table td,.main .accountmsg table th{
+	padding-left: 10px;
+}
+.bgWhiteGrey{
+	background-color: #f4f5f9;
+}
+.income .title{
+	padding: 29px 0px 5px;
+	font-size: 14px;
+}
+.income .title .glyphicon{
+	margin-left: 10px;
+    cursor: pointer;
+}
+
+.income .action {
+	margin:19px 0px;
+}
+.income .action .money{
+	font-size: 36px;
+	vertical-align: middle;
+    display: inline-block;
+    width: 140px;
+}
+.income .action a{
+	margin-left: 30px;
+}
+.income .section{
+	margin-right: 8px;
+}
+.income .title .tips{
+    width: 260px;
+    padding: 12px;
+    /*display: none;*/
+    position: absolute;
+    margin-top: 5px;
+}
+.income .title .tips span{
+    content:'';
+    /*width: 10px;*/
+    /*height: 10px;*/
+    display:block;
+    width:0;
+    height:0;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #e7d7a6;
+    position:absolute;
+    top: -10px;
+    left: 90px;
+}
+.income .title .tips span em{
+    content:'';
+    /*width: 10px;*/
+    /*height: 10px;*/
+    display:block;
+    width:0;
+    height:0;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #FEFCEF;
+    position:absolute;
+    top: 1px;
+    left: -10px
+}
+.row .record{
+	margin-top: 20px;
+}
+

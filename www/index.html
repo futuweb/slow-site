@@ -1,0 +1,203 @@
+<html lang="zh-cn" ng-app="kaihubao" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta charset="UTF-8">
+    <title>神秘宝</title>
+    <!-- rev-hash -->
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css?v=2183d05f5a0a9a3b2e8cb0509ca363e3">
+<link rel="stylesheet" href="/css/common.css?v=28de07ba51b569118ad768e4f22ab44c">
+<link rel="stylesheet" href="/css/login.css?v=fde87968156dc4cbaaf358ce305240f1">
+<link rel="stylesheet" href="/css/agent.css?v=90ede7ba1b189c904d3be1f3b3e4e779">
+<link rel="stylesheet" href="/css/main.css?v=065c79e201e4843cbf3ec6db5d00d605">
+<!-- end -->
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="/css/mobile.css">
+    <!-- rev-hash -->
+<script type="text/javascript" async="" src="http://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TX9746"></script><script src="/scripts/dist/main.js?v=7d7b398aeb4722f65dfb3af68089dc69"></script>
+<!-- end -->
+
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="WndaSi52R3QFRzt/fh4VGis1BQhcNDInDB8LH2cpMBg.LSsaVDc9Ew==">
+
+
+    <base href="/">
+    <script type="text/javascript">
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        if (window.ActiveXObject) {
+            Sys.ie = ua.match(/msie ([\d.]+)/)[1];
+        }
+        if(Sys.ie && +Sys.ie < 9.0) {
+          alert('非常抱歉！由于您的浏览器版本过低，不支持神秘宝平台，请您更换IE9以上或其他更高版本的浏览器，推荐您使用chrome。');
+        }
+    </script>
+<script src="//webapi.amap.com/maps?v=1.3&amp;key=8ba4946c7da88f3c742ec535f9de16d8&amp;plugin=AMap.DistrictSearch"></script></head>
+<body style="">
+
+
+<div style="display:none">
+ <script type="text/javascript" src="//s4.cnzz.com/z_stat.php?id=1255773508&amp;web_id=1255773508"></script><script src="http://c.cnzz.com/core.php?web_id=1255773508&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1255773508" target="_blank" title="站长统计">站长统计</a>
+<!-- <script src="//webapi.amap.com/maps?v=1.3&key=8ba4946c7da88f3c742ec535f9de16d8"></script> -->
+
+</div>
+<!-- Google Tag Manager -->
+<!-- <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TX9746"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TX9746');</script> -->
+<!-- End Google Tag Manager -->
+<!-- 页面view容器 开始 -->
+<!-- uiView: --><div autoscroll="true" ui-view="" class="ng-scope"><div class="mainWrapper loginWrapper ng-scope">
+    <section class="headerWrapper headGap">
+        <header>
+            <a href="#" class="logo">神秘宝</a>
+            <span class="nav navbar-nav navbar-right registerBtn userInfo">
+                <a href="#" ng-click="clickEventCount();loginDialog()" stat-click="1" stat-category="首页" stat-action="登录" stat-label="head">神秘人登录</a>
+                <!-- <span class="delimiter"> | </span>
+                <a href="/index/application-type" ng-click="clickEventCount()" stat-click="1" stat-category="首页" stat-action="申请加入" stat-label="head">申请加入</a> -->
+            </span>
+        </header>
+    </section>
+    <section class="login container-fluid" ng-class="{'login container-fluid login02':isShowBanner01}">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+                <div class="futuJzr">
+                    <h1>富途神秘人</h1><p>助力投资者开通富途账户</p>
+                    <div class="loginButton">
+                        <a href="#" ng-click="loginDialog();" stat-click="1" stat-category="首页" stat-action="登录" stat-label="banner">神秘人登录</a>
+                        <!-- <a href="/index/application-type" stat-click="1" stat-category="首页" stat-action="申请加入" stat-label="banner">申请加入</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="accountProcess container-fluid">
+        <div class="homeWrap">
+            <h1><span>富途 </span> 开户流程</h1>
+            <div class="part"></div>
+            <div class="process"><img src="/images/login/process.png"></div>
+        </div>
+    </section>
+    <section class="witnessProcess">
+        <div class="homeWrap">
+            <h3>神秘环节包含以下内容，整个过程通常持续2 ~ 3分钟</h3>
+        </div>
+         <div class="witness"><img src="/images/login/witness.png"></div>
+    </section>
+    <section class="homeMap">
+        <div class="homeWrap">
+            <h1>富途神秘人已覆盖全国<span class="ng-binding">31</span>省份，<span class="ng-binding">258</span>城市</h1>
+            <div class="part"></div>
+            <div class="address">
+                <div>看看你的城市</div>
+                <div class="addressChoose">
+                    <input class="mapAddress ng-isolate-scope" readonly="readonly" placeholder="请选择省市" address-select="" on-select="dealMap" level="level" data-ui-id="0">
+                </div>
+            </div>
+            <div id="mapContainer" class="amap-container" style="background: rgb(252, 249, 242);"><object style="display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" type="text/html" data="about:blank"></object><div class="amap-maps"><div class="amap-drags"><div class="amap-layers" style="transform: translateZ(0px);"><div style="position: absolute; z-index: 6; top: 345px; left: 500px;"><img src="/images/login/map.png" style="position: absolute; top: -271px; left: -357px; width: 702px; height: 517px;"></div><div class="amap-markers" style="position: absolute; z-index: 120; top: 345px; left: 500px;"><div class="amap-marker" style="top: 51px; left: 182px; z-index: 100; transform: rotate(0deg); transform-origin: 9px 31px 0px; display: block;"><div class="amap-icon" style="position: absolute; overflow: inherit; opacity: 1;"><img src="/images/index/amap_marker.png" style="top: 0px; left: 0px;"></div></div></div></div><div class="amap-overlays"><div class="amap-info" style="position: absolute; left: 481px; top: 427px;"><div style="position: absolute; bottom: 45px; left: 16px;"><div><div class="info"><div class="info-top"><div><span>上海市&nbsp;</span><span></span></div></div><div class="info-middle" style="background-color: rgb(10, 94, 204);"><div class="person"><img src="//jzb.futu5.com/file/image?key=30132f2026e1588e3be9683bb6418378604ac358019afc1d77d24858123ed8d508b24e4cc1334b3d.jpg" width="40" height="40"></div><div class="detail">汤李琴（移动）</div><div class="person"><img src="//jzb.futu5.com/file/image?key=d8d983133373f944d405beba41a0bd36d72fe85d4225ecfa164653f8b31d74d96c86b3cc8ca08561.png" width="40" height="40"></div><div class="detail">付词伟</div><div class="person"><img src="//jzb.futu5.com/file/image?key=42c0217da842e177345db28780a2ac62aceaa0f5dc1fd479d11c4d97e25b70b120aa125a2e87dd9d.jpg" width="40" height="40"></div><div class="detail">肖晓燕（移动）</div></div><div class="info-bottom" style="position: relative; top: -1px; left: -14px; margin: 0px auto;"><img src="/images/login/sharp.png"></div></div></div></div></div></div></div></div><div style="display: none;"><div class="amap-info" style="position: absolute; left: 424px; top: 306px;"><div style="position: absolute; bottom: 45px; left: 16px;"><div><div class="info"><div class="info-top"><div><span>北京市&nbsp;</span><span></span></div></div><div class="info-middle" style="background-color: rgb(10, 94, 204);"><div class="person"><img src="//jzb.futu5.com/file/image?key=69f548ccaec9daa6f7d1b5dadcd32bc20c7b60a40aa1aa601c0590a1dd7bc4ef5358669b746d9480.png" width="40" height="40"></div><div class="detail">李智英</div><div class="person"><img src="//jzb.futu5.com/file/image?key=d8d983133373f944df3fabfc619c8db6003c4c3a428a7a97d6078054ae728b98272ff6ff2593c8a9.jpg" width="40" height="40"></div><div class="detail">严励</div><div class="person"><img src="//jzb.futu5.com/file/image?key=d8d983133373f944723dc0628dd9b4a164118db4bb92627f638ed650e243823e99018d2f9a425540ed1cc0db3c7e6d24.png" width="40" height="40"></div><div class="detail">许昊（固定）</div></div><div class="info-bottom" style="position: relative; top: -1px; left: -14px; margin: 0px auto;"><img src="/images/login/sharp.png"></div></div></div></div></div></div><div class="amap-controls"></div><a class="amap-logo" href="http://gaode.com" target="_blank"><img src="http://webapi.amap.com/theme/v1.3/autonavi.png"></a><div class="amap-copyright" style="display: none;"><!--v1.3.24--> © 2017 AutoNavi <span class="amap-mcode"></span></div></div>
+        </div>
+        <div class="mask"></div>
+    </section>
+    <section class="recruit">
+        <img width="100%" src="/images/login/banner02.png">
+    </section>
+    <section class="recruitRequire">
+        <div class="requireBox">
+            <div class="require">
+                <h2>只要你有</h2>
+                <ul>
+                    <li>敢拼、敢闯的创业者精神</li>
+                    <li>具备一定市场销售和客户服务能力</li>
+                    <li>一部智能手机</li>
+                </ul>
+            </div>
+            <div class="require">
+                <h2>我们提供</h2>
+                <ul>
+                    <li>专业、丰富的培训</li>
+                    <li>按件计酬、多劳多得，更有丰厚福利</li>
+                    <li>富途官网推荐，扩大影响力和人脉圈</li>
+                    <li>跟随高速发展互联网金融公司一起成长</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="applyFor">
+        <ul class="nav" ng-init="activeTab = 1">
+            <li ng-click="activeTab = 1"  ng-class="{active:activeTab ===1}">申请加入</li>
+            <li ng-click="activeTab = 2"  ng-class="{active:activeTab ===2}">我要推荐</li>
+        </ul>
+        <div class="apply" ng-show="activeTab === 1">
+            <p>富途神秘人限量招募！即刻提交申请，最快2小时通过审核。</p>
+            <img src="/images/login/register.png"/>
+            <div class="homeApplyBtn"><a href="/index/application-type"  stat-click="1" stat-category="首页" stat-action="申请加入" stat-label="footer">立即申请</a></div>
+        </div>
+        <div class="recommend" ng-show="activeTab === 2">
+            <p>每成功推荐一个神秘人，双方各奖100元 ！<a href="javascript:;" ng-click="findMore()" stat-click="1" stat-category="首页" stat-action="了解详情">了解详情</a></p>
+            <div class="recommendDetail">
+                <div class="jzb_uid">
+                    <label class="title">您是</label><input type="text" placeholder="牛牛号" class="homePageInput" ng-model = "customer_uid" ng-change="uidChange()">
+                    <span>没有牛牛号？<a href="https://www.futu5.com/reg" target="_blank" stat-click="1" stat-category="首页" stat-action="注册牛牛号">注册一个</a></span>
+                </div>
+                <div class="jzb_uid" style="margin-top:20px">
+                    <label class="title">期望通过</label>
+                    <div class="radioParent" ng-init="recommend_method = 0">
+                        <label>
+                            <input type="radio" name="recommendForm" value="0" ng-model="recommend_method">
+                            &nbsp;&nbsp;短信邀请，被邀请人可以点击短信中的链接完成注册
+                        </label>
+                        <br/>
+                        <label>
+                            <input type="radio" name="recommendForm" value="1" ng-model="recommend_method" ng-disabled = "!customer_uid">
+                            &nbsp;&nbsp;面对面邀请，被推荐人可以扫描二维码完成注册
+                        </label>
+                    </div>
+                </div>
+                <div class="jzb_uid" style="margin-top:20px" ng-show="recommend_method == 0">
+                    <label class="title">想要邀请</label>
+                    <input type="text" placeholder="请输入被推荐人的手机号码" class="homePageInput" ng-model="invite_phone">
+                </div>
+                <div ng-show="recommend_method == 1 && scanImgShow === true" class="homeScan">
+                    <img src="http://jzb.futu5.com/site/qrcode-with-logo?uid={{customer_uid}}" width="150" class="img-thumbnail"/>
+                </div>
+            </div>
+            <div class="createScanImg" ng-show="recommend_method == 1 && !scanImgShow" ng-click="checkUid()"><a href="javascript:;">生成二维码</a></div>
+            <div class="homeApplyBtn" ng-show="recommend_method == 0" ng-click="sendInvitation()"><a href="javascript:;" stat-click="1" stat-category="首页" stat-action="发送邀请">发送邀请</a></div>
+        </div>
+    </section> -->
+</div>
+</div>
+<div class="loading ng-hide" ng-show="$root.loading.count">
+  <div class="loadingMsg ng-binding"></div>
+</div>
+<div class="modal ng-hide" id="dialog" ng-show="$root.dialog.isShow">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close ng-hide" data-dismiss="modal" aria-label="Close" ng-click="$root.dialog.cancelCallback()" ng-show="$root.dialog.showClose"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title ng-binding"></h4>
+      </div>
+      <div class="modal-body">
+        <p ng-bind-html="$root.dialog.content" class="ng-binding"></p>
+      </div>
+      <div class="modal-footer">
+        <button ng-show="$root.dialog.showCancel" type="button" class="btn btn-default ng-binding ng-hide" data-dismiss="modal" ng-click="$root.dialog.cancelCallback()"></button>
+        <button ng-show="$root.dialog.showConfirm" type="button" class="btn btn-primary ng-binding ng-hide" ng-click="$root.dialog.okCallback()"></button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<section class="footer">
+  <footer>
+    <span class="beian">富途牛牛 © 2015 富途网络 版权所有。京ICP备14052810号-3</span>
+    <span>富途牛牛 Copyright © 2015 Futu,Inc.All Rights Reserved</span>
+  </footer>
+</section>
+
+
+
+</div></div></body></html>

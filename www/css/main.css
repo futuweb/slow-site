@@ -1,0 +1,1053 @@
+body{
+    background:#f0f0f0;
+}
+a{
+    color: #095dcd;
+}
+#dialog{
+    display: block;
+}
+.main{
+    width:1000px;
+    margin:0px auto;
+    background:white;
+    border:1px solid #ddd;
+}
+.navPadding > li > a{
+    padding-left: 26px;
+    padding-right:26px;
+}
+.main .container{
+    min-height:1000px;
+    border-left:1px solid #ddd;
+    padding:20px;
+    overflow: hidden;
+}
+.main .containerPadding{
+    padding:20px 0;
+}
+.navWrapper{
+    margin-top:20px;
+    padding:0;
+}
+.navWrapper ul{
+    margin:0;
+}
+.navWrapper .menu{
+    border-top:1px solid #ddd;
+}
+.navWrapper .menu:first-of-type{
+    border-top:0 none;
+}
+.navWrapper .menu a{
+    color:#888;
+}
+.navWrapper .menu a:hover,
+.navWrapper .menu a:focus{
+    background-color: #fff;
+}
+.navWrapper .submenu li a{
+    color:#333;
+    padding-left:2.4em;
+}
+.navWrapper .submenu li a:hover
+{
+    background: #0a5ecc;
+    color:#fff;
+}
+.navWrapper .submenu li.active a{
+    background:#0a5ecc;
+    color:#fff;
+}
+.main .nopadding{
+    padding-left:0;
+    padding-right:0;
+}
+.main .nopadding h4{
+    padding-left:26px;
+}
+.container .filterWrapper{
+    margin-bottom:20px;
+}
+.container .table > tbody > tr > td{
+    vertical-align: middle;
+}
+.container .table > tbody > tr > td.center,
+.container .table > tbody > tr > th.center{
+    text-align: center;
+}
+.container .table > tbody > tr > td.operateTd{
+    width:200px;
+    line-height: 3em;
+}
+.formTips{
+    color:#f00;
+}
+.licenseImg{
+    color:red;
+}
+.formWrapper{
+    margin:18px 20% 0 26px;
+}
+.formWrapper02{
+    margin-left:26px;
+    margin-right:26px;
+}
+.formWrapper02 .form-horizontal .form-group{
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    padding:24px 0 22px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+
+}
+.formWrapper02 .form-horizontal .detail{
+    line-height: 38px;
+    border: 1px solid #ddd;
+    margin:0;
+    padding:0 0  0 16px;
+    background: #f8f8f8
+}
+.formWrapper h4{
+    margin:30px 0;
+}
+.registerForm{
+    margin-bottom:50px;
+    margin-top: 45px;
+}
+.labelWord{
+    white-space: nowrap;
+    font-weight: normal;
+    color: #393b3f;
+}
+.labelWordForm{
+    font-weight: normal;
+    color: #393b3f;
+    margin-right: 26px;
+    white-space: nowrap;
+}
+/*其实是见证点form*/
+.registerForm .agentImg{
+    width:40px;
+    height:40px;
+}
+.cusInfo label{
+    color:#888;
+}
+/*faq*/
+.containerPadding .faqWrapper{
+    margin:50px 10% 0 0;
+}
+.containerPadding .faqWrapper li{
+    color:#095ecb;
+}
+.containerPadding .faqWrapper .question{
+    font-weight: bold;
+    color:#095ecb;
+}
+.containerPadding .faqWrapper .answer{
+    margin-bottom: 36px;
+    color:#000;
+}
+.initial{
+    color:#888;
+}
+.appear{
+    display: none;
+}
+.registerBtn{
+    margin-right:60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.registerBtn a{
+    color:#333;
+}
+.agentPic{
+    width:140px;
+    height:120px;
+    display: inline-block;
+    position: relative;
+}
+/*地区选择*/
+.selectArea{
+    padding:0;
+    overflow: hidden;
+}
+.selectArea li {
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+    position: relative;
+    width:30%;
+    left: 15px;
+    text-align: center;
+}
+.selectArea li:first-child{
+    text-align:left;
+}
+.selectArea li:last-child {
+    border-right: none;
+}
+.inputBox01 select{
+    width: 150px;
+    min-height: 20%;
+    line-height: 20%;
+    background: #fff;
+}
+.inputBox02 select{
+    width: 200px;
+    min-height: 20%;
+    line-height: 20%;
+    background: #fff;
+}
+.inputBox03 select{
+    width: 200px;
+    min-height: 20%;
+    line-height: 20%;
+    background: #fff;
+}
+.inputBox01 {
+    min-height: 20px;
+    line-height: 20px;
+}
+/*签署协议的子导航*/
+.guide {
+    position: relative;
+    height:200px;
+    line-height: 50px;
+    margin: 50px 0;
+    text-align: center;
+}
+.guide .contract{
+    line-height: normal;
+    margin-top:10px;
+}
+.guide .contract a{
+    display: inline;
+}
+.guideImg{
+    height:100px;
+}
+.guide span{
+    display:block;
+    font-size: 16px;
+    margin:10px auto;
+}
+.guide i{
+    font-style: normal;
+    color: #8c878e;
+    display: block;
+    line-height: 0;
+}
+.guide .afterCheck{
+    position: relative;
+    top: -10px;
+    color: #8c878e;
+    line-height: normal;
+}
+.guide:nth-child(1):after,
+.guide:nth-child(2):after {
+    position: absolute;
+    top: 54px;
+    left: 90%;
+    content: '';
+    width: 68px;
+    height: 13px;
+    background:url(../images/register/jzbicon01.png);
+}
+.agreementBtn{
+    margin-top: 40px;
+}
+.agreementBtn02{
+    margin-top: 62px;
+}
+.jzbBtn {
+    margin: 27px 0;
+}
+.jzbQrcod {
+    margin-top: 100px;
+}
+.jzbAccess {
+    margin: 30px 0;
+    font-size: 100px;
+    color: #56c350;
+}
+.jzbUnAccess {
+    margin: 30px 0;
+    font-size: 100px;
+    color: #f2a615;
+}
+.unAccessReason{
+    font-size:20px;
+    margin-bottom: 15px;
+    display: block;
+}
+/*color*/
+.bgBlue {
+    background-color: #095ecb;
+}
+.bglightblue {
+    background-color: #00a0ea;
+}
+.bgGreen {
+    background-color: #32b16c;
+}
+.colorWhite {
+    color: #fff;
+}
+.colorGreen {
+    color: #66cc00;
+}
+.colorGrey{
+    color:#b3c0d0;
+}
+/*收入*/
+.accountRemind{
+    margin:20px 0;
+    color:#f00;
+}
+.income {
+    margin: 20px auto;
+}
+.income .col-md-2 {
+    width: 221px;
+    padding: 29px 0px;
+    font-size: 19px;
+}
+.income .symbol {
+    width: 45px;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.incomeRule p {
+    padding-left: 10px;
+}
+.footer{
+    position: absolute;
+    width:100%;
+    bottom:0;
+    height:50px;
+    line-height: 50px;
+    background:#093C6D;
+}
+.footer footer{
+    width:1000px;
+    margin:0 auto;
+    color:#7C8B9F;
+    font-size:12px;
+}
+.footer footer .beian{
+    float:right;
+}
+/*mapTip*/
+#locate_button_dialog_map{
+    min-height:400px;
+}
+#locate_button_dialog_map_tip{
+    position: absolute;
+    right: 61px;
+    top:-44px;
+    background-color:#fff;
+    margin-bottom: 10px;
+    font-size:12px;
+    border-radius:3px;
+    overflow:hidden;
+    line-height:20px;
+    min-width:400px;
+    z-index: 9;
+}
+#locate_button_dialog_map_tip input[type="button"]{
+    background-color: #0D9BF2;
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    color:#fff;
+    font-size:12px;
+    border-radius:3px;
+    outline: none;
+    border:0;
+    cursor:pointer;
+}
+#locate_button_dialog_map_tip input[type="text"]{
+    height:32px;
+    /*margin-top: 5px;*/
+    border:1px solid #ccc;
+    padding-left:10px;
+    border-radius:3px;
+    outline:none;
+}
+#locate_button_dialog_map_tips{
+    position: relative;
+    z-index: 2;
+}
+#locate_button_dialog_map_tip .locate_button_dialog_map_tips_item{
+    font-size: 13px;
+    cursor:pointer;
+    padding:6px 10px;
+}
+#locate_button_dialog_map_tip .locate_button_dialog_map_tips_item.focus,
+#locate_button_dialog_map_tip .locate_button_dialog_map_tips_item:hover{
+    background:#CAE1FF;
+}
+#locate_button_dialog_map_tip .locate_button_dialog_map_tips_item_district{
+    color:#ccc;
+}
+#result1{
+    max-height:300px;
+}
+/*注册页*/
+.registerSection{
+    padding-left:0;
+    padding-right:0;
+}
+.register{
+    position: relative;
+    border-bottom: 1px solid #d9dadc;
+    height: 44px;
+}
+.nav.register > li > a:hover,
+.nav.register > li > a:focus{
+    background:none;
+    cursor:default;
+}
+.nav-pills > li > a.registerNav{
+    height:44px;
+}
+.nav.register >li.active>a:hover,
+.nav.register >li.active>a:active,
+.nav.register >li.active>a:visited,
+.nav.register >li.active>a:focus
+{
+    background: #095ecb;
+    color: #fff;
+    cursor:default;
+}
+.nav.register >li.active>a:after
+{
+    background:url(../images/index/triangle01.png);
+    color: #fff;
+    cursor:default;
+}
+.nav.register >li>a:after{
+    content:'';
+    width:13px;
+    height:44px;
+    background:url(../images/index/triangle02.png);
+    position: absolute;
+    top:0;
+    right:-13px;
+    z-index: 2;
+}
+.nav.register >li:last-of-type>a:after{
+    content:none;
+}
+.nav.register >li.active{
+    background: #095ecb;
+    border:none;
+}
+.registerTips{
+    color: #868686;
+    padding-top: 10px;
+    display: block;
+    white-space:nowrap;
+}
+.registerForm .form-group{
+    margin-top:30px;
+}
+.registerForm h3{
+    color:#464646;
+    font-weight: normal;
+}
+.backToHome{
+    margin-top:52px;
+    padding-left: 50px;
+    height: 480px;
+    border-left: 1px solid #ddd;
+}
+.regBottom{
+    margin-bottom: 58px;
+}
+.regBottom h3{
+    margin-top: 0;
+}
+.backToHome h3{
+    color:#464646;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.accessAgent{
+    padding:96px 0 136px 0;
+}
+.unaccessIcon{
+    background: url(../images/register/video02.png);
+    width:116px;
+    height:116px;
+    margin:0 auto;
+}
+/*登录见证点*/
+.loginUser:before{
+    color:#b3c1d0;
+    margin-right:6px;
+    position: relative;
+    top:2px;
+}
+.loginName{
+    position: relative;
+}
+.loginName span{
+    position: absolute;
+    top:10px;
+    left:17px;
+    color:#cbcbcb;
+}
+.loginName input{
+    padding-left:48px;
+}
+/*新客户*/
+.newCusSubmit{
+    background-color: #ededed;
+    border-top: 1px solid #ddd;
+    border-right:1px solid #ddd;
+    display: block;
+    padding:15px;
+    position: relative;
+    top:35px;
+    left:-11px;
+    width:138%;
+}
+.percent{
+    font-weight: bold;
+    color: #3a3b40;
+    font-size: 28px;
+}
+/*密码修改*/
+.containerPadding .h4TitlePadding{
+    padding:0px 26px 0px 26px;
+
+}
+.containerPadding .h4Title{
+    padding:0px 0 26px 26px;
+    border-bottom: 1px solid #ddd;
+}
+.containerPadding .h4TitleBorder
+{
+    border-bottom: 1px solid #ddd;
+}
+/*蓝色按钮*/
+.btnPadding{
+    padding-left:40px;
+    padding-right:40px;
+}
+/*字体边距*/
+.fontPaddingBottom {
+    padding-bottom: 14px;
+}
+/*新手任务样式开始*/
+.taskIcon{
+    font-size: 116px;
+    color:#55c350;
+}
+.taskAccess{
+    font-size: 26px;
+}
+.taskTip{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.taskGuide{
+    margin:0;
+    height:100px;
+}
+.taskVideo{
+    height:466px;
+}
+.taskTestAnswer{
+    color:#f00;
+}
+.taskTestAnswerRight{
+    color:#57c70b;
+}
+.taskTestAnswerWrong{
+    color:#ff0101;
+}
+.testQuestion{
+    margin-top: 20px;
+}
+.q02Pic{
+    width:200px;
+    height:150px;
+    position: relative;
+    cursor: pointer;
+}
+.picscale{
+    position: absolute;
+    right: 0;
+    bottom:0px;
+    width:25px;
+    height:25px;
+    background: url(../images/index/scale.png) no-repeat 0 0;
+    cursor: pointer;
+}
+.qPicform{
+    width:200px;
+    height:300px;
+    position: relative;
+    cursor: pointer;
+}
+.testBtn{
+    margin-top:40px;
+}
+.taskTime{
+    font-size: 16px;
+    margin-top:18px;
+}
+.taskStep{
+    margin-top:20px;
+}
+.taskStep_process{
+    width:24px;
+    height:24px;
+    background-color: #095ecb;
+    color:#fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    margin:0 auto;
+    opacity: 0.5;
+    filter-alpha:opacity(50);
+}
+.taskStep_process_active{
+    opacity: 1;
+}
+.taskGuide:nth-child(1):after,
+.taskGuide:nth-child(2):after {
+    position: absolute;
+    top: 12px;
+    left: 154px;
+    content: '';
+    width:90%;
+    height:3px;
+    background: #e6e7ec;
+}
+.testPage{
+    color:#0a5ecc;
+    margin-left: 20px;
+}
+.agentCardLoad{
+    text-decoration: underline;
+}
+.q03Margin{
+    margin-top: 30px;
+}
+.testImgBorder{
+    border:1px solid #000;
+}
+.fill_four{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 40px;
+    outline: none;
+    margin-left: 5px;
+}
+/*新手任务样式结束*/
+/*顶部提示开始*/
+.tips{
+    background-color: #fefcef;
+    border:1px solid #e7d7a6;
+}
+.agentTaskTips{
+    margin:0px auto ;
+    height:60px;
+    line-height:60px;
+    background-color: #fefcef;
+    border:1px solid #e7d7a6;
+    z-index: 2;
+    position: relative;
+    bottom: -1px;
+}
+.agentTaskTips p{
+    margin:0;
+}
+.agentTaskTipsNone{
+    display: none;
+}
+/*顶部提示结束*/
+
+/*订单上方提示开始*/
+.newbieTaskTips{
+    margin:20px 26px;
+    padding: 10px 10px 0;
+}
+.newbieTaskTips p.title{
+    font-weight:bold;
+}
+/*订单上方提示结束*/
+/*操作指引*/
+.operationGuide {
+    position: relative;
+    max-height: 450px;
+}
+.operationGuide video {
+    width: 100%;
+}
+.operationGuide .icon-play {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    background: url(../images/index/playBtn.png) center center no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index:99;
+}
+.operationGuide .operationBackground {
+    width: 100%;
+    max-height: 438px;
+    z-index: 9;
+}
+.operationDocument img {
+    width: 100%;
+}
+.paddingTop20 {
+    padding-top: 20px;
+}
+/*个人身份申请*/
+.applicationBox{
+    border:none;
+    margin-bottom: 47px;
+}
+.application_type{
+    padding-left: 0;
+    padding-right: 0;
+}
+.relativeMargin{
+    margin-left: -16px;
+}
+.application_type_title{
+    height:80px;
+    line-height:80px;
+    text-align: center;
+    background-color: #75aefb;
+    transition:.2s all ease;
+    -webkit-transition:.2s all ease;
+    -moz-transition:.2s all ease;
+    -ms-transition:.2s all ease;
+    -o-transition:.2s all ease;
+}
+.application_type_title a:hover{
+    text-decoration: none;
+    cursor: default;
+}
+.application_type{
+    border:1px solid #d9dadc;
+}
+.application_type:hover{
+    border-color:#095ecb;
+}
+.application_type:hover .application_type_title{
+    background: #095ecb;
+}
+.application_type:hover .appBtn{
+    background: #095ecb;
+    color: #fff;
+    border:1px solid #095ecb;
+}
+.application_type:nth-of-type(1){
+    position: relative;
+    right: -1px;
+}
+.application_type:nth-of-type(1):hover{
+    border:1px solid #095ecb;
+    z-index:10;
+
+}
+.application_type:hover .application_type_content p,
+.application_type:hover .application_type_content li{
+    color:#464646;
+}
+.application_type_title a{
+    font-size: 20px;
+    color: #fff;
+}
+.application_type_content{
+    height:110px;
+    border-bottom:1px solid #d9dadc;
+    margin: 25px 30px 24px 30px;
+    font-size: 14px;
+}
+.application_type_content:last-child{
+    border-bottom: none;
+    padding-top: 25px;
+    padding-left: 0;
+}
+.application_type_content p{
+    font-size: 16px;
+    color: #868686;
+}
+.application_type_content ul{
+    padding-left: 0;
+}
+.application_type_content li{
+    list-style: none;
+    color:#868686;
+    font-size: 14px;
+
+}
+.appBtn{
+    width:190px;
+    height:60px;
+    line-height: 60px;
+    background: #f9fafc;
+    border:1px solid #adb9c1;
+    color: #666666;
+    font-size: 16px;
+    display: block;
+    margin:auto ;
+    transition:.2s all ease;
+    -webkit-transition:.2s all ease;
+    -moz-transition:.2s all ease;
+    -ms-transition:.2s all ease;
+    -o-transition:.2s all ease;
+}
+.appBtn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.typeIcon01{
+    background: url(../images/register/personal.png) no-repeat 0 0;
+    width:27px;
+    height:30px;
+    display:inline-block;
+    margin-right: 10px;
+    position: relative;
+    top:6px;
+}
+.typeIcon02{
+    background: url(../images/register/agent.png) no-repeat 0 0;
+    width:34px;
+    height:30px;
+    display:inline-block;
+    margin-right: 10px;
+    position: relative;
+    top:6px;
+}
+.interviewTime{
+    display: block;
+    margin-top:20px;
+    color:#888;
+}
+.personalGuide{
+    position: relative;
+    height: 200px;
+    line-height: 50px;
+    margin: 50px 0;
+    text-align: center;
+}
+.guide.personalGuide:after{
+    content:none;
+}
+.personAgreement{
+    padding:0 100px;
+}
+.changeType{
+    padding-bottom:20px;
+    padding-left: 0;
+    position: relative;
+    left: -43px;
+}
+.changType02{
+    left: -76px;
+}
+/*上传button*/
+.registerUpload{
+    width:137px;
+    height:116px;
+    border:1px dashed #c7c7c7;
+    padding-top: 20px;
+    color: #c3c3c3;
+    background-color:#fff;
+    margin-right:10px;
+}
+.registerUpload i{
+    background: url(../images/register/add.png) no-repeat 0 0;
+    width:38px;
+    height:38px;
+    display: block;
+    margin:0 auto;
+}
+.uploadImgSize{
+    width:137px;
+    height:116px;
+    position: relative;
+    cursor: pointer;
+}
+.uploadImgWord{
+    width:137px;
+    margin-right:10px;
+}
+.uploadImgWord p{
+    margin-top: 10px;
+    color: #868686;
+}
+.uploadImgWord2{
+    width:137px;
+    height:116px;
+    padding:20px 0;
+    color:#999;
+    margin-right:10px;
+}
+.pointer{
+    cursor:pointer;
+}
+.fillNotice{
+    color: #868686;
+    font-size: 14px;
+    font-weight: normal;
+}
+.agentContractRow{
+    margin-right:0;
+}
+.agentContractRow02{
+    padding:0 4%;
+    margin-left:0;
+    min-height:582px;
+}
+.checkstate{
+    font-size:20px;
+}
+.checkSateTips{
+    color:#999
+}
+.rejectReason{
+    color:red;
+}
+.wordNotWrap{
+    white-space: nowrap;
+}
+.wordLineHeight{
+    line-height: 34px;
+}
+.picGap{
+    margin-right: 15px;
+}
+.videoOkIcon{
+    background: url(../images/register/video01.png) no-repeat 0 0;
+    width:119px;
+    height:119px;
+}
+.videoofflineIcon{
+    background: url(../images/register/video02.png) no-repeat 0 0;
+    width:116px;
+    height:116px;
+}
+.videofinishIcon{
+    background: url(../images/register/video03.png) no-repeat 0 0;
+    width:116px;
+    height:116px;
+}
+.bigPicSize{
+    width:400px;
+    margin-left:34px;
+    height:100%;
+}
+.bigPicSize01
+{
+    width:500px;
+    margin-left:34px;
+    height:100%;
+}
+.regLeft{
+    padding-right: 60px;
+    margin-right: 12px;
+}
+/*密码重置开始*/
+.resetSuccess{
+    height:100px;
+}
+.resetSuccess p{
+    margin:0;
+}
+.resetSuccess  div{
+    line-height: 100px;
+    font-size: 15px;
+}
+.verifySpacing{
+    padding-left: 0;
+}
+/*密码重置结束*/
+/*休假模式优化开始*/
+.holidayMessage{
+     line-height: 1.5em;
+     padding:5px;
+     resize:none;
+     outline: none;
+}
+/*休假模式优化结束*/
+.nextStep{
+    padding-left:29px;
+}
+.btnpadding{
+    padding:12px 26px;
+    font-size: 16px;
+}
+.unbold{
+    font-weight: normal;
+}
+.questionMark:hover{
+    text-decoration:none;
+}
+.customerForm h4{
+    font-weight: normal;
+    margin:60px 0 30px 0;
+}
+/*表格填写正确改为黑色*/
+.has-success .form-control{
+    border-color:#d9dadc;
+    box-shadow: none;
+}
+.has-success .control-label,.has-success .radio{
+    color:#333;
+}
+.isExistMobile{
+    display: none;
+}
+.showMobile{
+    display: none;
+}
+.wx_scan{
+    text-align: center;
+    margin:30px auto 60px;
+}
+.wx_question ol{
+    padding-left: 16px;
+}
+.wx_name{
+    width:100px;
+    display:inline-block;
+}
+.addInfo_phone{
+    padding-left: 0;
+}
+.mobile_area_code_style{
+    padding-right: 0;
+}
+/*补充资料添加交易权限*/
+.tradeAuthority.checkbox{
+    color:#333;
+}
+.tradeAuthority >div{
+    padding-left: 0;
+}
